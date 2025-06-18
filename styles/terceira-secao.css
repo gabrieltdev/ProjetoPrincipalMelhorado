@@ -198,5 +198,41 @@ width: 247px;
 }
 
 @media (min-width: 431px) and (max-width: 1030px) {
-    
+.terceira-secao {
+margin: 270px 0 0 30px;
+}
+
+.br-mobile {
+    display: block;
+}
+
+.terceira-secao-paragrafo {
+font-size: 28px;
+font-weight: 300;
+}
+
+.terceira-secao-segundo-container {
+    margin: -130px 0 0 -120px;
+}
+
+.imagem-homem-aranha-grande {
+    width: 120%;
+}
+
+.terceira-secao-card-um {
+height: 246px;
+width: 535px;
+}
+
+.terceira-secao-card-dois {
+margin-top: -10px;
+height: 42px;
+width: 395px;
+}
+
+.terceira-secao-card-tres {
+margin-top: -5px;
+height: 27px;
+width: 347px;
+}
 }

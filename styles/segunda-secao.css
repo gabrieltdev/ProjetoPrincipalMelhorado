@@ -116,5 +116,25 @@ font-size: 20px;
 }
 
 @media (min-width: 431px) and (max-width: 1030px) {
+.segunda-secao {
+margin: 88px 0 0 40px;
+gap: 0;
+}
 
+.segunda-secao-primeiro-container img {
+width: 80%;
+}
+
+.segunda-secao-segundo-container {
+margin: 0px 0 0 -60px;
+width: 80%;
+}
+
+.segunda-secao-titulo {
+font-size: 43px;
+}
+
+.segunda-secao-paragrafo {
+font-size: 23px;
+}
 }
