@@ -1,0 +1,79 @@
+.quarta-secao {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.quarta-secao-titulo {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    background: linear-gradient(to right, #E44963, #FD9452);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.quarta-secao-segundo-container {
+    display: flex;
+}
+
+.quarta-secao-lista-container {
+    display: flex;
+    text-align: center;
+    color: #BFB4D0;
+    gap: 50px;
+}
+
+.quarta-secao-lista {
+    width: 180px;
+}
+
+.quarta-secao-linha {
+    background-color: #210948;
+    position: relative;top: 55px;
+    height: 5px;
+    width: 110px;
+    margin-left: -90px;
+    margin-right: -90px;
+}
+
+.quarta-secao-pesquisa{
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    background-color: #A2A2A238;
+    border-radius: 5px;
+    width: 219px;
+    height: 63px;
+}
+
+select:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #a9a9a9;
+}
+
+.quarta-secao-filtro-pesquisar {
+    border: none;
+    font-family: 'Open Sans';
+    margin:0px 20px 0px 10px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 250px;
+    background-color: transparent;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+@media (max-width: 430px) {
+    
+}

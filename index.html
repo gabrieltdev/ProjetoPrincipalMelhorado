@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/cabecalho.css">
+    <link rel="stylesheet" href="styles/primeira-secao.css">
+    <link rel="stylesheet" href="styles/segunda-secao.css">
+    <link rel="stylesheet" href="styles/terceira-secao.css">
+    <link rel="stylesheet" href="styles/quarta-secao.css">
+    <link rel="stylesheet" href="styles/quinta-secao.css">
+    <link rel="stylesheet" href="styles/sexta-secao.css">
+    <link rel="stylesheet" href="styles/rodape.css">
+
+    <title>XP Zone</title>
+</head>
+<body>
+    <div class="background-image">
+        <div class="background-images">
+            <header>
+                <div class="cabecalho">
+                    <div class="cabecalho-container-logo"><img src="img/logotipo.png" alt="Logo tipo da xpzone"></div>
+                    <div class="cabecalho-container-botao">
+                        <a class="cabecalho-botao-entrar" href="#">Entrar</a>
+                        <a class="cabecalho-botao-anunciar" href="#">Anunciar Grátis</a>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section class="secao-centralizada">
+                    <div class="primeira-secao">
+                        <div class="primeira-secao-container">
+                            <h1 class="primeira-secao-titulo">>> <span>Compre</span><br>os melhores artigos<br>gamers na sua cidade!</h1>
+                            <p class="primeira-secao-paragrafo">Nunca foi tão fácil conseguir aquele jogo ou<br>console tão sonhado com a XP Zone.</p>
+                            <div class="pesquisa">
+                                <select name="filtro" class="filtro-pesquisar">
+                                    <option selected>Filtre sua cidade</option>
+                                    <option value="rj">São Paulo</option>
+                                    <option value="sp">Rio de Janeiro</option>
+                                </select>
+
+                                <div class="linha-pesquisar"></div>
+
+                                <div class="agrupar-pesquisa">
+                                    <input class="barra-pesquisa" type="search" id="pesquisar" placeholder="O que deseja hoje?">
+
+                                    <button class="botao-pesquisar" onclick="pesquisar()" type="button"><img class="imagem-botao" src="img/pesquisar.png" alt="icone de lupa"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="primeira-secao-logotipos">
+                            <img src="img/logos.png" alt="logotipos de empresas relacionadas a jogos">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="secao-centralizada">
+                    <div class="segunda-secao">
+                        <div class="segunda-secao-primeiro-container">
+                            <img src="img/Sonic.png" alt="foto do Sonic">
+                        </div>
+                        <div class="segunda-secao-segundo-container">
+                            <h2 class="segunda-secao-titulo">Conheça a XP Zone</h2>
+                            <p class="segunda-secao-paragrafo">Aqui você encontra jogadores da sua cidades em uma comunidade <strong>segura para você trocar, comprar ou vender seus artigos gamers</strong>, além disso, você terá a possibilidade de se conectar com amigos e montar a sua própria comunidade.</p>
+                            <div>
+                                <ul class="segunda-secao-lista">
+                                    <li class="segunda-secao-lista-conteudo">
+                                        <img src="img/ic-check.svg" alt="icone de check">
+                                        <p class="segunda-secao-texto-lista-paragrafo">Compre jogos novos e usados;</p>
+                                    </li>
+                                    <li class="segunda-secao-lista-conteudo">
+                                        <img src="img/ic-check.svg" alt="icone de check">
+                                        <p class="segunda-secao-texto-lista-paragrafo">Troque seus jogos por outros;</p>
+                                    </li>
+                                    <li class="segunda-secao-lista-conteudo">
+                                        <img src="img/ic-check.svg" alt="icone de check">
+                                        <p class="segunda-secao-texto-lista-paragrafo">Venda seus artigos gamers;</p>
+                                    </li>
+                                    <li class="segunda-secao-lista-conteudo">
+                                        <img src="img/ic-check.svg" alt="icone de check">
+                                        <p class="segunda-secao-texto-lista-paragrafo">Ganhe XP a cada interação.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <a class="segunda-secao-botao-anunciar" href="#">Anunciar Grátis</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="secao-centralizada">
+                    <div class="terceira-secao">
+                        <div class="terceira-secao-primeiro-container">
+                            <div class="terceira-secao-primeiro-container-texto">
+                                <h2 class="terceira-secao-titulo">Ganhe XP e cresça na comunidade</h2>
+                            </div>
+                            <p class="terceira-secao-paragrafo">A cada troca, compra ou venda, você acumula XP e com eles você é rankeado na sua cidade tornando-se um membro mais confiável para toda a comunidade e recebendo benefícios exclusivos.</p>
+                            <div class="terceira-secao-card">
+                                <div class="terceira-secao-card-um">
+                                    <h3 class="titulo-terceira-secao-card">Você ganhou<span> 100 XP</span></h3>
+                                        <div class="barra-xp">
+                                            <div class="progresso"></div>
+                                        </div>
+                                    <div class="fogo"><img src="img/bolaDeFogo.png" alt="bola de fogo"></div>
+                                        <p class="paragrafo-terceira-secao-card">Acumule XP e ganhe recompensas</p>
+                                </div>
+                                    <div class="terceira-secao-card-dois"></div>
+                                    <div class="terceira-secao-card-tres"></div>
+                            </div>
+                        </div>
+                        <div class="terceira-secao-segundo-container">
+                            <img src="img/spiderMan.png" alt="Imagem do homem aranha">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="secao-centralizada">
+                    <div class="quarta-secao">
+                        <div class="quarta-secao-primeiro-container">
+                            <h2 class="quarta-secao-titulo">Como funciona</h2>                           
+                        </div>
+                        <div class="quarta-secao-segundo-container">
+                            <ul class="quarta-secao-lista-container">
+                                <li class="quarta-secao-lista">
+                                    <img class="quarta-secao-imagem" src="img/ic-pesquise.svg" alt="icone de lupa">
+                                    <p class="quarta-secao-texto">Pesquise o artigo<br> que deseja</p>
+                                </li>
+                                <div class="quarta-secao-linha"></div>
+                                <li  class="quarta-secao-lista">
+                                    <img class="quarta-secao-imagem" src="img/ic-filtre.svg" alt="icone de filtro">
+                                    <p class="quarta-secao-texto">Filtre por trocar <br>ou comprar</p>
+                                </li>
+                                <div class="quarta-secao-linha"></div>
+                                <li  class="quarta-secao-lista">
+                                    <img class="quarta-secao-imagem" src="img/ic-escolha.svg" alt="icone controle de video game">
+                                    <p class="quarta-secao-texto">Escolha como pagar <br>ou o item de troca</p>
+                                </li>
+                                <div class="quarta-secao-linha"></div>
+                                <li  class="quarta-secao-lista">
+                                    <img class="quarta-secao-imagem" src="img/ic-combine.svg" alt="icone de localização">
+                                    <p class="quarta-secao-texto">Combine a troca ou <br>o tipo de entrega</p>
+                                </li>
+                                <div class="quarta-secao-linha"></div>
+                                <li  class="quarta-secao-lista">
+                                    <img class="quarta-secao-imagem" src="img/ic-finalize.svg" alt="icone de chamas">
+                                    <p class="quarta-secao-texto">Finalize a negociação <br>e ganhe XP</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="quarta-secao-pesquisa">
+                            <select name="filtro" class="quarta-secao-filtro-pesquisar">
+                                <option selected>Filtre sua cidade</option>
+                                <option value="rj">São Paulo</option>
+                                <option value="sp">Rio de Janeiro</option>
+                            </select>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="secao-centralizada">
+                    <div class="quinta-secao">
+                        <div class="quinta-secao-primeiro-container">
+                            <h2 class="quinta-secao-titulo">Faça novos amigos</h2>
+                            <img src="img/palavraGamers.png" alt="Palavra GAMERS">
+                        </div>
+                        <div class="quinta-secao-segundo-container">
+                            <img class="quinta-secao-icone-controle" src="img/game-controller.png" alt="Controle de video game">
+                            <img src="img/gamers.png" alt="Fotos de gamers">
+                            <img class="quinta-secao-icone-chat" src="img/chat-messenger.png" alt="Icone de chat">
+                        </div>
+                        <div class="quinta-secao-terceiro-container">
+                            <a class="quinta-secao-botao" href="#">Entrar na comunidade XP Zone</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="secao-centralizada">
+                    <div class="sexta-secao">
+                        <div class="sexta-secao-primeiro-container">
+                            <img src="img/card.png" alt="Card ilustrativo">
+                        </div>
+                        <div class="sexta-secao-segundo-container">
+                            <h2 class="sexta-secao-titulo"><span>Card Zone</span><br>Presenteie um amigo</h2>
+                            <div class="sexta-secao-paragrafo-formatacao">
+                                <p class="sexta-secao-paragrafo">Você pode comprar Card Zones para presentear seus amigos, com eles é possível comprar seus jogos favoritos na sua cidade e receber no conforto da sua casa.</p>
+                                <p class="sexta-secao-paragrafo">Aproveite e compre também nas lojas da XP Zone os melhores artigos gamers.</p>
+                            </div>
+                            <a class="sexta-secao-botao" href="#">Comprar agora</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class="rodape">
+                    <div class="rodape-versao-desktop">
+                        <div class="rodape-primeiro-container">
+                            <div class="rodape-adaptacao-tablet">
+                                <h2 class="rodape-titulo">Um lugar<br>para jogadores</h2>
+                            </div>
+                            <div class="rodape-adaptacao-tablet">
+                                <div class="rodape-secao-pesquisa">
+                                    <img class="imagem-bandeira" src="img/ic-brazil-flag.svg" alt="bandeira do brasil">
+                                    <select name="filtro" class="rodape-secao-filtro-pesquisar">
+                                        <img src="img/ic-brazil-flag.svg" alt="bandeira do brasil">
+                                        <option selected>Português do Brasil</option>
+                                        <option value="ingles">Inglês</option>
+                                    </select>
+                                </div>
+
+                                <div class="rodape-redes-sociais">
+                                    <a class="rodape-redes-sociais-icones" href="#"><img class="imagem-redes-socicais" src="img/ic-insta.svg" alt="icone do instagram"></a>
+                                    <a class="rodape-redes-sociais-icones" href="#"><img class="imagem-redes-socicais" src="img/ic-facebook.svg" alt="iconde do facebook"></a>
+                                    <a class="rodape-redes-sociais-icones" href="#"><img class="imagem-redes-socicais" src="img/ic-linkedin.svg" alt="icone do linkedin"></a>
+                                    <a class="rodape-redes-sociais-icones" href="#"><img class="imagem-redes-socicais" src="img/ic-youtube.svg" alt="icone do youtube"></a>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="rodape-linha-topo"></div>
+                        <div class="rodape-segundo-container">
+                            <div class="rodape-adaptacao-mobile">
+                                <div class="rodape-lista-coluna">
+                                    <h2 class="rodape-lista-titulo">Empresa</h2>
+                                    <ul class="rodape-lista">
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Sobre</a>
+                                        </li>
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Empregos</a>
+                                        </li>
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Marca</a>
+                                        </li>
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Imprensa</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="rodape-lista-coluna">
+                                    <h2 class="rodape-lista-titulo">Recursos</h2>
+                                    <ul class="rodape-lista">
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Suporte</a>
+                                        </li>
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Segurança</a>
+                                        </li>
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Blog</a>
+                                        </li>
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Comunidade</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rodape-adaptacao-mobile">
+                                <div class="rodape-lista-coluna">
+                                    <h2 class="rodape-lista-titulo">Política</h2>
+                                    <ul class="rodape-lista">
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Termos</a>
+                                        </li>
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Privacidade</a>
+                                        </li>
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Cookies</a>
+                                        </li>
+                                        <li class="rodape-lista-conteudo">
+                                            <a class="rodape-lista-botao" href="#">Moderação</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="rodape-lista-coluna">
+                                    <h2 class="rodape-lista-titulo">Aplicativo</h2>
+                                    <ul class="rodape-lista">
+                                        <li class="rodape-lista-conteudo">
+                                            <img src="img/android-ic.png" alt="">
+                                            <a class="rodape-lista-botao" href="#">Baixe para Android</a>
+                                        </li>
+                                        <li class="rodape-lista-conteudo">
+                                            <img src="img/apple-ic.png" alt="">
+                                            <a class="rodape-lista-botao" href="#">Baixe para IOS</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="rodape-linha"></div>
+                    <div class="rodape-terceiro-container">
+                        <div class="rodape-container-logotipo">
+                            <img src="img/logotipo.png" alt="logotipo da xpzone">
+                        </div>
+                        <div class="rodape-container-creditos">
+                            <p >Desenvolvido por Lucas de Luca - PRO Figma Web <br>Programado por Gabriel Tavares</p>
+                        </div>
+                        <div class="rodape-container-botao">
+                            <a href="">Anunciar Grátis</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

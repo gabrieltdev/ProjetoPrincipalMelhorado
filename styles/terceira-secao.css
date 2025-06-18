@@ -1,0 +1,105 @@
+.terceira-secao {
+    margin: 390px 0 0 150px;
+    display: flex;
+}
+
+.terceira-secao-titulo {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    background: linear-gradient(to right, #E44963, #FD9452);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.terceira-secao-paragrafo {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #BFB4D0;
+    margin: 35px 0 35px 0;
+}
+
+.terceira-secao-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.terceira-secao-card-um {
+    background-color: #210948;
+    border-radius: 20px;
+    height: 246px;
+    width: 543px;
+    text-align: center;
+}
+
+.titulo-terceira-secao-card {
+    font-family: 'Oxanium';
+    padding: 40px 0 23px 0;
+    background: linear-gradient(to right, #E44963, #FD9452);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.titulo-terceira-secao-card span {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.barra-xp {
+    background-color: #413653;
+    border-radius: 10px;
+    height: 10px;
+    width: 75%;
+    overflow: hidden;
+    margin: 0px 74px;
+}
+
+.progresso {
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(to right, #ff4f7a, #ffa500);
+    position: relative;
+    border-radius: 10px;
+}
+
+.fogo {
+    width: 65px;
+    height: 42px;
+    position: relative;bottom: 28px; left: 50%;
+}
+
+.paragrafo-terceira-secao-card{
+    color: #BFB4D0;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.terceira-secao-card-dois {
+    align-items: center;
+    background-color: #210948B2;opacity: 0.7;
+    border-radius: 20px;
+    height: 62px;
+    width: 485px;
+}
+
+.terceira-secao-card-tres {
+    background-color: #21094880;opacity: 0.5;
+    border-radius: 10px;
+    height: 37px;
+    width: 347px;
+}
+
+.terceira-secao-segundo-container {
+    margin: -350px 0 0 -100px;
+}
+
+@media (max-width: 430px) {
+    
+}
