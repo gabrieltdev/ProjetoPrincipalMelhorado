@@ -100,10 +100,46 @@
     margin: -350px 0 0 -100px;
 }
 
-@media (max-width: 430px) {
-    
+.imagem-homem-aranha-pequeno {
+    display: none;
 }
 
-@media (min-width: 430px) and (max-width: 1030px) {
+@media (max-width: 430px) {
+.terceira-secao {
+margin: 390px 0 0 0px;
+flex-direction: column-reverse;
+text-align: center;
+}
+
+.terceira-secao-segundo-container {
+display: flex;
+justify-content: center;
+margin:0;
+}
+
+.imagem-homem-aranha-grande {
+display: none;
+}
+
+.imagem-homem-aranha-pequeno {
+display: flex;
+}
+
+.terceira-secao-primeiro-container-texto {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.terceira-secao-titulo {
+font-size: 40px;
+}
+
+.terceira-secao-paragrafo {
+font-size: 20px;
+}
+}
+
+@media (min-width: 431px) and (max-width: 1030px) {
     
 }
