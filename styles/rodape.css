@@ -142,3 +142,7 @@ footer::before {
 @media (max-width: 430px) {
     
 }
+
+@media (min-width: 430px) and (max-width: 1030px) {
+    
+}
