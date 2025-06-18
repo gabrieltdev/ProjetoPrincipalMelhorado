@@ -49,9 +49,79 @@
 }
 
 @media (max-width: 430px) {
-    
+.quinta-secao {
+margin-top: 80px;
+}
+
+.quinta-secao-titulo {
+font-size: 40px;
+}
+
+.quinta-secao-segundo-container {
+margin-top: -30px;
+}
+
+.imagem-palavra-gamers {
+width: 80%;
+}
+
+.imagem-gamer {
+width: 80%;
+}
+
+.quinta-secao-icone-controle {
+width: 15%;
+margin:140px -15px 0 0;
+z-index: 1;
+}
+
+.quinta-secao-icone-chat {
+width: 15%;
+margin:-130px 0 0 -15px;
+}
+
+.quinta-secao-terceiro-container {
+margin-top: 20px;
+}
+
+.botao-quinta-secao {
+padding: 8px 13%;
+}
 }
 
 @media (min-width: 431px) and (max-width: 1030px) {
+.quinta-secao {
+margin-top: 80px;
+}
 
+.quinta-secao-titulo {
+font-size: 40px;
+}
+
+.quinta-secao-segundo-container {
+margin-top: -30px;
+}
+
+.imagem-palavra-gamers {
+width: 80%;
+}
+
+.imagem-gamer {
+width: 80%;
+}
+
+.quinta-secao-icone-controle {
+width: 15%;
+margin:140px -15px 0 0;
+z-index: 1;
+}
+
+.quinta-secao-icone-chat {
+width: 15%;
+margin:-130px 0 0 -15px;
+}
+
+.quinta-secao-terceiro-container {
+margin-top: 40px;
+}
 }
