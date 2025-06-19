@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html ,body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #120428;
+    background-size: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    margin: 90px 0 36px;
+}
+
+.primeira-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 32px;
+    gap: 10px;
+}
+
+.primeira-secao h1 {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 700;
+    color: #BFB4D0;
+}
+
+.primeira-secao p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    color: #BFB4D0;
+}
+
+.primeira-secao-container-botao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.primeira-secao-botao-gmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B0B5D;
+    border-radius: 5px;
+    width: 450px;
+    height: 56px;
+    gap: 10px;
+}
+
+.primeira-secao-botao-gmail a {
+    color: #ffffff;
+    font-family: 'Open Sans';
+}
+
+.primeira-secao-botao-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #593D85;
+    border-radius: 5px;
+    width: 450px;
+    height: 56px;
+    gap: 10px;
+}
+
+.primeira-secao-botao-facebook a {
+    color: #ffffff;
+    font-family: 'Open Sans';
+}
+
+.segunda-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.segunda-secao-primeiro-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.segunda-secao-primeiro-container p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    color: #BFB4D0;
+}
+
+.linha {
+    background-color: #60576F;
+    width: 54px;
+    height: 2px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nome {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nome input {
+    background-color: #1A0738;
+    width: 450px;
+    height: 56px;
+    border: 1px solid #2F0C66;
+    border-radius: 5px;
+}
+
+.nome label {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.email input {
+    background-color: #1A0738;
+    width: 450px;
+    height: 56px;
+    border: 1px solid #2F0C66;
+    border-radius: 5px;
+}
+
+.email label {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;  
+}
+
+.senha-container {
+    display: flex;
+    gap: 7px;
+}
+
+.senha {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.senha input {
+    background-color: #1A0738;
+    width: 221px;
+    height: 56px;
+    border: 1px solid #2F0C66;
+    border-radius: 5px;
+}
+
+.senha label {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+input::placeholder {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff 50%;
+    padding-left: 10px;
+}
+
+.container-botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.botao-acessar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 219px;
+    height: 54px;
+}
+
+.botao-acessar a {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.botao-criar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right ,#E44963 ,#FD9452);
+    border-radius: 5px;
+    width: 221px;
+    height: 56px;
+}
+
+.botao-criar a {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.condicao {
+    text-align: center;
+    margin: 32px 0;
+}
+
+.condicao p {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    color: #BFB4D0;
+}
+
+.condicao a {
+    color: #8E5AE2;
+    text-decoration: underline
+}
+
+@media (max-width: 430px) {
+.primeira-secao-botao-gmail {
+width: 350px;
+height: 48px;
+}
+
+.primeira-secao-botao-facebook {
+width: 350px;
+height: 48px;
+}
+
+.nome input {
+width: 350px;
+height: 48px;
+}
+
+.email input {
+width: 350px;
+height: 48px;
+}
+
+.senha input{
+width: 170px;
+height: 48px;
+}
+
+.botao-acessar {
+width: 170px;
+height: 46px;
+}
+
+.botao-criar {
+width: 170px;
+height: 48px;
+}
+}

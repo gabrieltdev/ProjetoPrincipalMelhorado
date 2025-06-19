@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="img/Frame 562.png" alt="Logotipo xpzone">
+        </div>
+    </header>
+    <main>
+        <section class="primeira-secao">
+            <div class="primeira-secao-texto">
+                <h1>Cadastre-se</h1>
+                <p>Usando o Google ou Facebook</p>
+            </div>
+            <div class="primeira-secao-container-botao">
+                <div class="primeira-secao-botao-gmail">
+                    <img src="img/Symbol.svg.png" alt="icone do gmail">
+                    <a href="#">Entrar com o Gmail</a>
+                </div>
+                <div class="primeira-secao-botao-facebook">
+                    <img src="img/g10.png" alt="icone do facebook">
+                    <a href="#">Entrar com o Facebook</a>
+                </div>
+            </div>
+        </section>
+        <section class="segunda-secao">
+            <div class="segunda-secao-primeiro-container">
+                <div class="linha"></div>
+                <p>Ou inscreva-se com seu e-mail</p>
+                <div class="linha"></div>
+            </div>
+            <div>
+                <form class="formulario" action="">
+                    <div class="nome">
+                        <label for="nome">Nome e sobrenome</label>
+                        <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Nome e sobrenome" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">Digite seu e-mail</label>
+                        <input type="email" id="email" name="email" autocomplete="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="email">
+                        <label for="repita-email">Repita seu e-mail</label>
+                        <input type="email" id="repita-email" name="repita-email" placeholder="Repita seu e-mail" required>
+                    </div>
+                    <div class="senha-container">
+                        <div class="senha">
+                            <label for="senha">Crie uma senha</label>
+                            <input type="password" id="senha" name="senha" autocomplete="new-password" placeholder="Crie uma senha" required>
+                        </div>
+                        <div class="senha">
+                            <label for="senha">Repita sua senha</label>
+                            <input type="password" id="repita-senha" name="repita-senha" autocomplete="off" placeholder="Repita sua senha" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="container-botoes">
+                <div class="botao-acessar">
+                    <a href="#">Acessar</a>
+                </div>
+                <div class="botao-criar">
+                    <a href="#">Criar conta</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="condicao">
+            <p>Ao clicar em “criar conta”, certifico que tenho 16 anos ou<br> mais e aceito os <a href="#">Termos de uso</a> e a <a href="#">Política de Privacidade</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
