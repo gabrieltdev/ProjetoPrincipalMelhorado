@@ -110,14 +110,18 @@ footer::before {
     background-color: #593D85;
     height: 1px;
     width: 100%;
-    margin-top: 40px;
+    margin: 30px 0;
 }
 
 .rodape-terceiro-container {
     display: flex;
+    flex-direction: column;
+}
+
+.rodape-terceiro-container-conteudo {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
 }
 
 .rodape-container-creditos {
@@ -126,6 +130,7 @@ footer::before {
     font-size: 14px;
     font-weight: 300;
     text-align: center;
+    position: relative;bottom: 50px;
 }
 
 .rodape-container-botao {
@@ -140,9 +145,106 @@ footer::before {
 }
 
 @media (max-width: 430px) {
-    
+.rodape {
+padding: 20px 0 20px;
+}
+
+.rodape-secao-pesquisa {
+margin-top: 10px;
+}
+
+.rodape-redes-sociais {
+margin-top: 10px;
+}
+
+.rodape-versao-desktop {
+flex-direction: column;
+align-items: center;
+}
+
+.rodape-primeiro-container {
+text-align: center;
+align-items: center;
+}
+
+.rodape-segundo-container {
+gap: 20px;
+flex-direction: column;
+margin-left: 10px;
+}
+
+.rodape-lista-botao {
+font-size: 14px;
+}
+
+.rodape-linha {
+margin: 30px;
+width: 90%;
+}
+
+.rodape-linha-topo {
+background-color: #593D85;
+height: 1px;
+width: 90%;
+}
+
+.rodape-terceiro-container {
+gap: 10px;
+}
+
+.rodape-terceiro-container-conteudo {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.rodape-container-botao {
+padding: 20px 20px;
+}
+
+.rodape-container-creditos {
+position: relative;bottom: 0;
+}
+
 }
 
 @media (min-width: 431px) and (max-width: 1030px) {
-    
+.rodape {
+padding: 20px 0 0px;
+align-items: center;
+}
+
+.rodape-versao-desktop {
+flex-direction: column;
+align-items: start;
+gap: 10px;
+}
+
+.rodape-primeiro-container {
+flex-direction: row;
+gap: 70px;
+}
+
+.rodape-secao-pesquisa {
+margin-top: 0px;
+}
+
+.rodape-redes-sociais {
+margin-top: 15px;
+}
+
+.rodape-linha-topo {
+background-color: #593D85;
+height: 1px;
+width: 100%;
+}
+
+.rodape-linha {
+width: 90%;
+}
+
+.rodape-terceiro-container-conteudo {
+gap: 430px;
+}
 }

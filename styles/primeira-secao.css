@@ -81,6 +81,7 @@
 }
 
 @media (max-width: 430px) {
+
 .primeira-secao {
 margin-top: 314px;
 z-index: 1;
@@ -139,6 +140,7 @@ width: 100%;
 }
 
 @media (min-width: 431px) and (max-width: 1030px) {
+    
 .primeira-secao {
 margin:85px 0 0 25px;
 }

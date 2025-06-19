@@ -49,6 +49,7 @@
 }
 
 @media (max-width: 430px) {
+    
 .quinta-secao {
 margin-top: 80px;
 }
@@ -90,6 +91,7 @@ padding: 8px 13%;
 }
 
 @media (min-width: 431px) and (max-width: 1030px) {
+
 .quinta-secao {
 margin-top: 80px;
 }
