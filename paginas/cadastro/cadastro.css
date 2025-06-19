@@ -61,25 +61,24 @@ header {
 }
 
 .primeira-secao-botao-gmail {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #2B0B5D;
     border-radius: 5px;
     width: 450px;
     height: 56px;
-    gap: 10px;
 }
 
 .primeira-secao-botao-gmail a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     color: #ffffff;
     font-family: 'Open Sans';
+    width: 450px;
+    height: 56px;
 }
 
 .primeira-secao-botao-facebook {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #593D85;
     border-radius: 5px;
     width: 450px;
@@ -88,8 +87,14 @@ header {
 }
 
 .primeira-secao-botao-facebook a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     color: #ffffff;
     font-family: 'Open Sans';
+    width: 450px;
+    height: 56px;
 }
 
 .segunda-secao {
@@ -209,9 +214,6 @@ input::placeholder {
 }
 
 .botao-acessar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: 1px solid #ffffff;
     border-radius: 5px;
     width: 219px;
@@ -219,16 +221,18 @@ input::placeholder {
 }
 
 .botao-acessar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Open Sans';
     font-size: 20px;
     font-weight: 400;
     color: #ffffff;
+    width: 219px;
+    height: 54px;
 }
 
 .botao-criar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: linear-gradient(to right ,#E44963 ,#FD9452);
     border-radius: 5px;
     width: 221px;
@@ -236,10 +240,15 @@ input::placeholder {
 }
 
 .botao-criar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Open Sans';
     font-size: 20px;
     font-weight: 400;
     color: #ffffff;
+    width: 221px;
+    height: 56px;
 }
 
 .condicao {
