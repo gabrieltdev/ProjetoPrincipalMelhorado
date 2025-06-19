@@ -200,6 +200,13 @@ header {
     flex-direction: column;
 }
 
+input {
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff
+}
+
 input::placeholder {
     font-family: 'Open Sans';
     font-size: 14px;
