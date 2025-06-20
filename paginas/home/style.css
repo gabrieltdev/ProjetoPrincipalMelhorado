@@ -1,0 +1,25 @@
+:root {
+    --cor-de-fundo: #120428;
+    --fonte-titulo: 'Oxanium';
+    --fonte-paragrafo: 'Open Sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html ,body {
+    background-color: var(--cor-de-fundo);
+    background-size: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.background-image {
+    background-image: url(img/fundo3apresentacao.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
