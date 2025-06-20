@@ -232,7 +232,9 @@ input::placeholder {
 }
 
 .alerta {
-    color: rgb(150, 6, 6);
+    font-size: 12px;
+    color: red;
+    font-family: 'Open Sans';
 }
 
 .container-botoes {
