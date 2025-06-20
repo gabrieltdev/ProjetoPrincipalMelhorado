@@ -231,6 +231,10 @@ input::placeholder {
     color: #8E5AE2;
 }
 
+.alerta {
+    color: rgb(150, 6, 6);
+}
+
 .container-botoes {
     display: flex;
     gap: 10px;
@@ -255,20 +259,29 @@ input::placeholder {
     height: 54px;
 }
 
-.botao-acessar input {
+.botao-acessar button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Open Sans';
     font-size: 20px;
     font-weight: 400;
-    background: linear-gradient(to right ,#E44963 ,#FD9452);
-    border-radius: 5px;
     width: 224px;
     height: 56px;
-    color: #ffffff;
+    background: linear-gradient(to right ,#E44963 ,#FD9452);
+    border-radius: 5px;
     border: none;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 @media (max-width: 430px) {
 .primeira-secao-botao-gmail {
+width: 350px;
+height: 48px;
+}
+
+.primeira-secao-botao-gmail a {
 width: 350px;
 height: 48px;
 }
@@ -278,23 +291,33 @@ width: 350px;
 height: 48px;
 }
 
+.primeira-secao-botao-facebook a {
+width: 350px;
+height: 48px;
+}
+
 .email input {
 width: 350px;
 height: 48px;
 }
 
-.senha input{
+.senha input {
 width: 350px;
 height: 48px;
 }
 
-.botao-acessar {
-width: 170px;
-height: 46px;
+.botao-acessar button {
+width: 174px;
+height: 51px;
 }
 
 .botao-cadastrar {
-width: 170px;
+width: 174px;
+height: 48px;
+}
+
+.botao-cadastrar a {
+width: 174px;
 height: 48px;
 }
 }
