@@ -8,7 +8,7 @@ function fazerLogin() {
     event.preventDefault()
 
     if (validarEmail() && validarSenha()) {
-        window.location.href = "/paginas/home/home.html";
+        window.location.href = "../../paginas/home/home.html";
     } else {
         alerta.textContent = "Email ou senha inválidos.";
     }
